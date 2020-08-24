@@ -316,6 +316,10 @@ main#home h1 {
 }
 .about-info .gr-1 {
   grid-area: gr1;
+  border-radius: 5%;
+  width: 75%;
+  margin-left: 12%;
+  margin-bottom: 2rem;
 }
 .about-info .gr-2 {
   grid-area: gr2;
@@ -369,25 +373,6 @@ td ul {
   opacity: 0.3;
   border-color: #1ae0ee;
   transition: all 0.5s ease-out;
-}
-
-.screenshoot {
-  display: grid;
-  grid-gap: 0.7rem;
-  grid-template-columns: repeat(5, 1fr);
-}
-
-.screenshoot img {
-  width: 100%;
-  border: 5px #fff solid;
-  border-top-right-radius: 20%;
-}
-
-.screenshoot img:hover {
-  opacity: 0.99;
-  border-color: #1ae0ee;
-  transition: all 0.5s ease-out;
-  width: 300%;
 }
 
 .boxes {
